@@ -40,7 +40,7 @@ namespace InterfaceExercise
             //Now, create objects of your 3 classes and give their members values;
             //Creatively display and organize their value
 
-            Car BigBlue = new Car();
+            ICompanyVehicle BigBlue = VehicalFactory.GetVehicle(1);
             BigBlue.make = "Honda";
             BigBlue.logo = "H";
             BigBlue.mpg = 25;
@@ -50,7 +50,7 @@ namespace InterfaceExercise
             BigBlue.hasTurbo = false;
             BigBlue.hasStripes = false;
 
-            Truck OldRed = new Truck();
+            ICompanyVehicle OldRed = VehicalFactory.GetVehicle(2);
             OldRed.make = "Ford";
             OldRed.logo = "Ford";
             OldRed.mpg = 15;
@@ -60,7 +60,7 @@ namespace InterfaceExercise
             OldRed.bedLength = 6;
             OldRed.fourWheelDrive = true;
 
-            SUV MrBlack = new SUV();
+            ICompanyVehicle MrBlack = VehicalFactory.GetVehicle(3);
             MrBlack.make = "Ford";
             MrBlack.logo = "Ford";
             MrBlack.mpg = 15;

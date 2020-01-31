@@ -4,7 +4,7 @@ using System.Text;
 
 namespace InterfaceExercise
 {
-    class Truck : ICompany, IVehicle
+    class Truck : ICompanyVehicle
     {
         public string make { get; set; }
         public string logo { get; set; }
