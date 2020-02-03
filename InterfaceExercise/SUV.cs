@@ -14,5 +14,9 @@ namespace InterfaceExercise
         public int doors { get; set; }
         public bool spareTire { get; set; }
         public int topSpeed { get; set; }
+        public int bedLength { get; set; }
+        public bool fourWheelDrive { get; set; }
+        public bool hasTurbo { get; set; }
+        public bool hasStripes { get; set; }
     }
 }
